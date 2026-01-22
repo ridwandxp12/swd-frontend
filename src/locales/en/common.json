@@ -1,3 +1,6 @@
 {
-  "hello": "Hello {{name}}"
+  "TEST": "Test",
+  "LAYOUT_AND_STYLE": "Layout & Style",
+  "CONNECT_API":"Connect API",
+  "FORM_AND_TABLE":"Form & Table"
 }

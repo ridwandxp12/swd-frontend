@@ -1,3 +1,6 @@
 {
-  "hello": "สวัสดี {{name}}"
+  "TEST": "แบบทดสอบ",
+  "LAYOUT_AND_STYLE": "การจัดการหน้าเว็บ",
+  "CONNECT_API":"การเชื่อมต่อ API",
+  "FORM_AND_TABLE":"การจัดการหน้าฟอร์ม"
 }
