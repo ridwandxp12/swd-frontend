@@ -4,7 +4,7 @@ import i18n from '@/i18n'
 import { Select } from 'antd'
 import { useState } from 'react'
 
-const TopBar = () => {
+const TopBar = ({ title }: { title?: string }) => {
     const [lang, setLang] = useState("th")
 
     const handleChange = (value: string) => {
@@ -15,6 +15,7 @@ const TopBar = () => {
 
     return (
         <div className='top-bar'>
+            <h3>{title}</h3>
             <Select
                 value={lang}
                 style={{ width: 120 }}

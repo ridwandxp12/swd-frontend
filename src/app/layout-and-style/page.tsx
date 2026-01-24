@@ -1,15 +1,9 @@
-import React from "react";
+import React from 'react'
 
-type LayoutMainProps = {
-    children: React.ReactNode;
-};
-
-const LayoutMain = ({ children }: LayoutMainProps) => {
+const LayoutAndStyle = () => {
     return (
-        <main>
-            {children}
-        </main>
-    );
+        <div>LayoutAndStyle</div>
+    )
 }
 
-export default LayoutMain
+export default LayoutAndStyle

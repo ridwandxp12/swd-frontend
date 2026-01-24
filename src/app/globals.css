@@ -3,12 +3,12 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {
@@ -39,4 +39,34 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.background{
+  height: 100vh;
+}
+
+.top-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.home-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.h-100{
+  height: 100%;
+}
+.w-100{
+  width:  100%;
+}
+
+.cursor{
+  cursor: pointer;
 }
